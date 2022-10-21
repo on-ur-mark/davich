@@ -12,7 +12,6 @@ body {
 }
 
 
-
 /****** header ******/
 .header_container {
     position: fixed; /* 가로 너비 지정 필요 */
@@ -898,19 +897,25 @@ ul.navbar_gnb > li.on .icon::before
 .storeDesc img {
 
 }
-.storeTxt {
-    color: #fff;
+.slick-slide .storeTxt {
+    position: relative;
+}
+.slick-slide .storeTxt h4{
     position: absolute;
-    top: 25%;
-    left: 60%;
+    font-size: 35px;
+    width: 40%;
+    top: 30%;
+    right: 0;
+    color: #fff;
 }
-.storeTxt h4{
-    font-size: 40px;
-    line-height: 70px;
-}
-.storeTxt p{
+.slick-slide .storeTxt p{
+    position: absolute;
     font-size: 25px;
     font-weight: 700;
+    width: 40%;
+    top: 50%;
+    right: 0;
+    color: #fff;
 }
 
 /****** footer ******/
@@ -1042,3 +1047,10 @@ footer{ background: #f9f9f9;}
 .mFamilySite{
     background: #f9f9f9;
 }
+
+
+/* slick */
+
+.slick-slide {
+    margin: 0 10px;
+  }

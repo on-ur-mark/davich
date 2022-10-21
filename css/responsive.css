@@ -99,20 +99,18 @@
         width: 40vw;
     }
     .storeDesc  img {
-        width:  40vw;
+        width:  100%
     }
-    .storeTxt {
-        top: 20%;
-    }
-    .storeTxt h4{
-        font-size: 30px;
-        line-height: 70px;
-    }
-    .storeTxt p{
-        font-size: 19px;
-        font-weight: 700;
-    }
-
+    
+  .slick-slide .storeTxt h4{
+    font-size: 30px;
+    width: 45%;
+}
+.slick-slide .storeTxt p{
+    font-size: 20px;
+    width: 45%;
+    top: 55%;
+}
     /* footer */
     .footerContainer {
         width: 1200px;
@@ -404,15 +402,17 @@
         margin-bottom: 20px;
         text-align: center;
     }
+
+    /* 슬릭슬릭슬릭슬릭슬릭 */
     .instaInner{
-        display: none;
+        display: block;
         width: 100%;    
         margin-right: 0px;
         margin-bottom: 0px;
     }
-    .instaInner:nth-child(2){
+    /* .instaInner:nth-child(2){
         display: block;
-    } 
+    }  */
 
     .instaIcon {
         right: 10px;
@@ -439,16 +439,19 @@
     .storeDesc  img {
         width:  100%;
     }
-    .storeTxt {
-        top: 25%;
+   
+    .slick-slide .storeTxt h4{
+        font-size: 45px;
+        top: 30%;
+        width: 45%
     }
-    .storeTxt h4{
-        font-size: 6vw;
-        line-height: 100px;
-    }
-    .storeTxt p{
+    .slick-slide .storeTxt p{
         font-size: 3vw;
+        top: 50%;
+        width: 45%;
     }
+
+    
     .btnAll {
         display: none;
     }
@@ -757,15 +760,19 @@
         overflow: hidden;
         white-space: nowrap;
     }
-    .storeTxt {
-        top: 30%;
+    .slick-slide .storeTxt {
+       position: relative;
     }
-    .storeTxt h4{
+  .slick-slide .storeTxt h4 {
+        width: 45%; 
         font-size: 5vw;
-        line-height: 1.5;
+        top: 30%;
+        height: 50px;
     }
-    .storeTxt p{
+    .slick-slide .storeTxt p{
+        width: 45%;
         font-size: 3vw;
+        top: 55%;
     }
 
     /* footer */
