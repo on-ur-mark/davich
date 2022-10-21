@@ -619,7 +619,7 @@
         padding: 10px 10px;
         font-size: 16px;
     }
-    .proLens .proWrap .proImg .proImgMain {
+   .proWrap .proImg .proImgMain {
         display: none;
     }
     .proImgMain{
